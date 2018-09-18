@@ -55,7 +55,7 @@ const mailOptions = {
     
     attachments: [{
         filename: 'test_picture.jpg',
-        path: '/home/Node/'
+        path: '/home/Node'
     }]
 } ;
 transport . sendMail ( mailOptions , ( error , info ) => {   
@@ -92,7 +92,7 @@ const mailOptions = {
 	
 	attachments: [{
 		filename: 'test_picture.jpg',
-		path: '/home/Node/'
+		path: '/home/Node'
 	}]
 } ;
 transport . sendMail ( mailOptions , ( error , info ) => {   
