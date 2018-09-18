@@ -64,6 +64,7 @@ transport . sendMail ( mailOptions , ( error , info ) => {
     }
     console . log ( `Mensaje enviado : $ { info . respuesta } ` ) ;
 } ) ;
+	res.end('CORREO ENVIADO EXITOSAMENTE')
 
 });
 
